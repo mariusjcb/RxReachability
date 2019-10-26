@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "RxReachability",
-            dependencies: ["RxSwift", "RxCocoa", "ReachabilitySwift"]),
+            dependencies: ["RxSwift", "RxCocoa", "Reachability"]),
         .testTarget(
             name: "RxReachabilityTests",
             dependencies: ["RxReachability"]),
